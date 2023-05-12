@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve's Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="openbtn" onclick="openNav()">☰</button> 
+    <div class="welcome" id="welcome">
+        <div class="main_title">
+            Welcome!
+        </div>
+    </div>
+    <div class="all">
+        <div class="sidebar" id="mySidebar">
+            <div class="h-left">
+                <button class="closebtn" onclick="closeNav()">×</a>
+                    <button type="button" class="home" onclick="home.scrollIntoView()">Home</button>
+                    <button type="button" class="about" onclick="about.scrollIntoView()">About Me</button>
+                <button type="button" class="facts" onclick="facts.scrollIntoView()">Interesting Facts</button>
+                <button type="button" class="projects" onclick="projects.scrollIntoView()">Personal Projects</button>
+            </div>
+            <div class="h-right">
+                <p class="links">Links</p>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="about" id="about">
+                <div class="title">
+                    About Me
+                </div>
+            </div>
+            <div class="facts" id="facts">
+                <div class="title">
+                    Interesting Facts
+                </div>
+            </div>
+            <div class="projects" id="projects">
+                <div class="title">
+                    Personal Projects
+                </div>
+                <!-- add a coming soon tag -->
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var home = document.getElementById("welcome");
+        var about = document.getElementById("about");
+        var facts = document.getElementById("facts");
+        var projects = document.getElementById("projects");
+
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            // document.getElementById("content").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            // document.getElementById("content").style.margin= "0";
+        }
+    </script>
+</body>
+</html>
