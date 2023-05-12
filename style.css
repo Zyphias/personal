@@ -34,6 +34,17 @@ html {
     display: flex;
 }
 
+#facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#facts > p {
+    width: 400px;
+    padding: 15px;
+}
+
 .sidebar {
     display: flex;
     justify-content: space-between;
