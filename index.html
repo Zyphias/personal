@@ -11,7 +11,7 @@
     <button class="openbtn" onclick="openNav()">☰</button> 
     <div class="welcome" id="welcome">
         <div class="main_title">
-            Welcome!
+            Hi, I'm Steve. <br> Welcome to my profile.
         </div>
     </div>
     <div class="all">
@@ -22,27 +22,62 @@
                     <button type="button" class="about" onclick="about.scrollIntoView()">About Me</button>
                 <button type="button" class="facts" onclick="facts.scrollIntoView()">Interesting Facts</button>
                 <button type="button" class="projects" onclick="projects.scrollIntoView()">Personal Projects</button>
-            </div>
-            <div class="h-right">
-                <p class="links">Links</p>
+                <button type="button" class="socials" onclick="socials.scrollIntoView()">Socials</button>
             </div>
         </div>
         <div class="content" id="content">
-            <div class="about" id="about">
+            <div class="section" id="about">
                 <div class="title">
                     About Me
                 </div>
+                <br>
+                <p>name: steve yeung</p>
+                <br>
+                <p>degree: computer science</p>
+                <br>
+                <p>age: 20</p>
+                <br>
+                <p>hobbies n interests: </p>
+                <br>
+                <p>• piano</p>
+                <br>
+                <p>• gym</p>
+                <br>
+                <p>• games</p>
+                <br>
+                <p>favourite food: ramen</p>
+
             </div>
-            <div class="facts" id="facts">
+            <div class="section" id="facts">
                 <div class="title">
-                    Interesting Facts
+                    (Not so) Fun Facts
                 </div>
+                <br>
+                <p>hate veggies</p> <br>
+                <p>played 1200 hours of league during final year of hs. could've read 200 books</p><br>
+                <p>Spent around 50k on music lessons</p><br>
+                <p>my pop was shot at while swimming across a border so the "i'm sick" card never worked on my parents</p>
             </div>
-            <div class="projects" id="projects">
+            <div class="section" id="projects">
                 <div class="title">
                     Personal Projects
                 </div>
+                <br>
+                <div class="banner">coming soon...</div>
                 <!-- add a coming soon tag -->
+            </div>
+            <div class="section" id="socials">
+                <div class="title">
+                    Socials
+                </div>
+                <br>
+                <div class="thanks">Thanks for visiting my profile! <br><br> Check out my socials here. </div>
+                <br>
+                <a href="" class="socials">insta</a>
+                <a href="" class="socials">linkedin</a>
+                <br>
+                <a href="" class="socials">github</a>
+                <a href="" class="socials">facebook</a>
             </div>
         </div>
     </div>
@@ -53,6 +88,7 @@
         var about = document.getElementById("about");
         var facts = document.getElementById("facts");
         var projects = document.getElementById("projects");
+        var socials = document.getElementById("socials");
 
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
