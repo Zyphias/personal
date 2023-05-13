@@ -2,21 +2,12 @@
     margin: 0;
 }
 
-
-
 .all {
     background-color: rgb(32, 36, 47);
-    margin: 0;
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-.welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .titlei {
@@ -24,29 +15,23 @@ html {
     color: white;
 }
 
-.me {
+.profile {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    /* margin: 0 auto; */
-    border: 4px solid black;
 }
 
 .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: fit-content;
     color: black;
     text-align: center;
-    width: 100%;
     font-size: 50px;
     background-color: rgb(32, 36, 47);
-}
-
-.main_title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-
-.all {
-    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #facts {
@@ -79,23 +64,16 @@ html {
     padding-left: 80px;
 }
 
-.h-left, .h-right {
+.buttons {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(55, 55, 170); */
 }
 
-.home, .about, .links, .projects, .socials {
+#buttons {
     margin: 16px;
     padding: 8px;
     text-align: center;
 }
-
-.facts {
-    margin: 16px;
-    padding: 8px;
-}
-
 
 .content {
     display: flex;
@@ -106,7 +84,6 @@ html {
 
 .content > .section {
     margin: 16px;
-    /* border: 2px solid blue; */
     text-align: center;
     height: 500px;
     border-radius: 30px;
@@ -197,10 +174,6 @@ button {
     position: fixed;
     border-radius: 30px;
     margin: 10px;
-}
-
-.social {
-    /* display: grid; */
 }
 
 #socials, #about, #facts {
