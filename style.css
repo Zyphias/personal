@@ -240,7 +240,7 @@ button {
     flex-direction: column;
 }
 
-.selections > button {
+.selections > div {
     font-size: 50px;
     padding: 80px 180px;
     border: black 2px solid;
@@ -251,6 +251,7 @@ button {
 
 .close-popup {
     font-size: 40px;
+    width: 500px;
 }
 
 .pop-info {
@@ -281,12 +282,37 @@ body {
     opacity: 0;
   }
 
+.summerselection {
+    background-image: url(summer.gif);
+}
 
+.winterselection {
+    background-image: url(winter.gif);
+}
+
+.autumnselection {
+    background-image: url(autumn.gif);
+}
+
+.springselection {
+    background-image: url(spring.gif);
+}
+
+.seasonbutton {
+    opacity: 0;
+    width: 100px;
+    display: flex;
+}
+
+.seasonbutton:hover {
+    opacity: 1;
+}
+
+/* 
 .select-summer:hover {
     background-image: url(summer.gif);
     background-size: cover;
     background-position: center;
-    transition: background-image 300ms ease-in 200ms;
 }
 
 .select-winter:hover {
@@ -305,4 +331,4 @@ body {
     background-image: url(spring.gif);
     background-size: cover;
     background-position: center;
-}
+} */
