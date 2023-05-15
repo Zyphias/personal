@@ -225,3 +225,50 @@ button {
     border: 0;
     border-radius: 5px;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.popup {
+    background-color: white;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+}
+
+.space {
+    display: flex;
+}
+.filler {
+    flex: 1;
+}
+.popup button {
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+body {
+    opacity: 1;
+    transition-duration: 4s;
+    transition-property: opacity;
+  }
+
+  body.fade {
+    opacity: 0;
+  }

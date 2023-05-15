@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve's Profile</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".close-popup").click(function(){
+            $(".popup").fadeOut();
+          });
+        });
+        $(document).load().scrollTop(0);
+    </script>
 </head>
 <body>
+    <script>
+        // prefade action
+        document.body.classList.add('fade');
+    </script>
+    <div class="popup">
+        <div class="space">
+            <div class="filler">hi</div>
+            <button class="close-popup" id="close-popup">&times;</button>
+        </div>
+        <div class="pop-info">
+            <h1>This is the popup!</h1>
+        </div>
+    </div>
     <button class="openbtn" onclick="openNav()">☰</button> 
     <div class="welcome" id="welcome">
         <div class="main_title">
@@ -134,6 +156,26 @@
             setTheme('summer');
         }
         })();
+
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open(event) {
+                    document.querySelector(".popup").style.display = "block";
+                },
+                1000
+            );
+        });
+
+        // fade in function
+        document.addEventListener("DOMContentLoaded", () => {
+            window.setTimeout(function() {
+                document.body.classList.remove('fade');
+            }, 800);
+        });
+
+        // stops scrolling when popup is open
+        // $("body").css("overflow", "hidden");
+
     </script>
 </body>
 </html>
