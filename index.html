@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
+        $("body").css("overflow", "hidden");
         $(document).ready(function(){
           $(".close-popup").click(function(){
-            $(".popup").fadeOut();
+            $(".popup").fadeOut(3000);
+            $("body").css("overflow", "visible");
           });
         });
         $(document).load().scrollTop(0);
@@ -21,13 +23,20 @@
         // prefade action
         document.body.classList.add('fade');
     </script>
-    <div class="popup">
+    <div class="popup" style="display: flex;">
         <div class="space">
-            <div class="filler">hi</div>
+            <div class="filler"></div>
             <button class="close-popup" id="close-popup">&times;</button>
         </div>
         <div class="pop-info">
-            <h1>This is the popup!</h1>
+            <h1>Theme Selection</h1>
+            <div class="selections">
+                <button id="switch" onclick="toggleSummer()" class="close-popup">Summer</button>
+                <button id="switch" onclick="toggleWinter()" class="close-popup">Winter</button>
+                <button id="switch" onclick="toggleAutumn()" class="close-popup">Autumn</button>
+                <button id="switch" onclick="toggleSpring()" class="close-popup">Spring</button>
+            </div>
+            
         </div>
     </div>
     <button class="openbtn" onclick="openNav()">☰</button> 
@@ -37,13 +46,6 @@
             <img class="profile" src="final.jpeg" alt="me">
             <div class="titlei">Welcome to my profile.</div> 
         </div>
-    </div>
-    <div class="container">
-        <h1>Theme Switcher</h1>
-        <button id="switch" onclick="toggleSummer()">summer</button>
-        <button id="switch" onclick="toggleWinter()">winter</button>
-        <button id="switch" onclick="toggleAutumn()">autumn</button>
-        <button id="switch" onclick="toggleSpring()">spring</button>
     </div>
     <div class="all">
         <div class="sidebar" id="mySidebar">
@@ -160,11 +162,12 @@
         window.addEventListener("load", function(){
             setTimeout(
                 function open(event) {
-                    document.querySelector(".popup").style.display = "block";
+                    document.querySelector(".popup").style.display = "flex";
                 },
                 1000
             );
         });
+
 
         // fade in function
         document.addEventListener("DOMContentLoaded", () => {
@@ -174,7 +177,8 @@
         });
 
         // stops scrolling when popup is open
-        // $("body").css("overflow", "hidden");
+
+        $("body").css("overflow", "hidden");
 
     </script>
 </body>
