@@ -13,11 +13,11 @@
         <div class="main_title">
             <div class="titlei">Hi, I'm Steve.</div>
             <img class="profile" src="final.jpeg" alt="me">
-            <div class="titlei">Welcome to my profile. </div> 
+            <div class="titlei">Welcome to my profile.</div> 
         </div>
     </div>
     <div class="container">
-        <h1>Theme Switcher poo</h1>
+        <h1>Theme Switcher</h1>
         <button id="switch" onclick="toggleSummer()">summer</button>
         <button id="switch" onclick="toggleWinter()">winter</button>
         <button id="switch" onclick="toggleAutumn()">autumn</button>
@@ -126,14 +126,12 @@
             setTheme('spring');
         }
 
-
-
         // Immediately invoked function to set the theme on initial load
         (function () {
         if (localStorage.getItem('theme') === 'theme-dark') {
             setTheme('theme-dark');
         } else {
-            setTheme('theme-light');
+            setTheme('summer');
         }
         })();
     </script>
