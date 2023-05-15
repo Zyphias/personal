@@ -246,6 +246,7 @@ button {
     border: black 2px solid;
     border-radius: 50px;
     margin: 20px;
+    
 }
 
 .close-popup {
@@ -261,6 +262,7 @@ button {
 
 .pop-info h1 {
     padding: 40px 0px;
+    margin-top: 50px;
 }
 
 .space {
@@ -280,3 +282,27 @@ body {
   }
 
 
+.select-summer:hover {
+    background-image: url(summer.gif);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 300ms ease-in 200ms;
+}
+
+.select-winter:hover {
+    background-image: url(winter.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.select-autumn:hover {
+    background-image: url(autumn.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.select-spring:hover {
+    background-image: url(spring.gif);
+    background-size: cover;
+    background-position: center;
+}

@@ -11,7 +11,7 @@
         $("body").css("overflow", "hidden");
         $(document).ready(function(){
           $(".close-popup").click(function(){
-            $(".popup").fadeOut(3000);
+            $(".popup").fadeOut(800);
             $("body").css("overflow", "visible");
           });
         });
@@ -24,17 +24,14 @@
         document.body.classList.add('fade');
     </script>
     <div class="popup" style="display: flex;">
-        <div class="space">
-            <div class="filler"></div>
-            <button class="close-popup" id="close-popup">&times;</button>
-        </div>
+        <div class="space"></div>
         <div class="pop-info">
             <h1>Theme Selection</h1>
             <div class="selections">
-                <button id="switch" onclick="toggleSummer()" class="close-popup">Summer</button>
-                <button id="switch" onclick="toggleWinter()" class="close-popup">Winter</button>
-                <button id="switch" onclick="toggleAutumn()" class="close-popup">Autumn</button>
-                <button id="switch" onclick="toggleSpring()" class="close-popup">Spring</button>
+                <button id="switch" onclick="toggleSummer()" class="close-popup select-summer">Summer</button>
+                <button id="switch" onclick="toggleWinter()" class="close-popup select-winter">Winter</button>
+                <button id="switch" onclick="toggleAutumn()" class="close-popup select-autumn">Autumn</button>
+                <button id="switch" onclick="toggleSpring()" class="close-popup select-spring">Spring</button>
             </div>
             
         </div>
@@ -173,7 +170,7 @@
         document.addEventListener("DOMContentLoaded", () => {
             window.setTimeout(function() {
                 document.body.classList.remove('fade');
-            }, 800);
+            }, 500);
         });
 
         // stops scrolling when popup is open
