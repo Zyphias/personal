@@ -17,13 +17,8 @@
     </script>
 </head>
 <body>
-    <script>
-        // prefade action
-        document.body.classList.add('fade');
-    </script>
-    <!-- <div id="snowflakeContainer">
-        <p class="snowflake">*</p>
-    </div> -->
+    <script src="snow.js"></script>
+    <script src="general.js"></script>
     <div class="popup" style="display: flex;">
         <div class="space"></div>
         <div class="pop-info">
@@ -49,7 +44,7 @@
     <div class="welcome" id="welcome">
         <div class="main_title">
             <div class="titlei">Hi, I'm Steve.</div>
-            <img class="profile" src="final.jpeg" alt="me">
+            <img class="profile" src="/media/face.jpeg" alt="me">
             <div class="titlei">Welcome to my profile.</div> 
         </div>
     </div>
@@ -111,83 +106,13 @@
                 <br>
                 <div class="thanks">Thanks for visiting my profile! <br><br> Check out my socials here. </div>
                 <br>
-                <a href="https://www.instagram.com/_steveyeung/" class="socials"><img src="insta.png" alt="insta"></a>
-                <a href="http://www.linkedin.com/in/steve-yeung-47897321b" class="socials"><img src="linkedin.png" alt="linkedin"></a>
-                <a href="https://github.com/Zyphias" class="socials"><img src="github.png" alt="github"></a>
-                <a href="https://www.facebook.com/steve.yeung.92798/" class="socials"><img src="facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/_steveyeung/" class="socials"><img src="/media/icons/insta.png" alt="insta"></a>
+                <a href="http://www.linkedin.com/in/steve-yeung-47897321b" class="socials"><img src="/media/icons/linkedin.png" alt="linkedin"></a>
+                <a href="https://github.com/Zyphias" class="socials"><img src="/media/icons/github.png" alt="github"></a>
+                <a href="https://www.facebook.com/steve.yeung.92798/" class="socials"><img src="/media/icons/facebook.png" alt="facebook"></a>
             </div>
         </div>
     </div>
-
-
-    <script>
-        var home = document.getElementById("welcome");
-        var about = document.getElementById("about");
-        var facts = document.getElementById("facts");
-        var projects = document.getElementById("projects");
-        var socials = document.getElementById("socials");
-
-        function openNav() {
-            document.getElementById("mySidebar").style.width = "250px";
-            // document.getElementById("content").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            // document.getElementById("content").style.margin= "0";
-        }
-
-        // function to set a given theme/color-scheme
-        function setTheme(themeName) {
-            localStorage.setItem('theme', themeName);
-            document.documentElement.className = themeName;
-        }
-        // function to toggle between light and dark theme
-        function toggleSummer() {
-            setTheme('summer');
-        }
-        function toggleWinter() {
-            setTheme('winter');
-        }
-        function toggleAutumn() {
-            setTheme('autumn');
-        }
-        function toggleSpring() {
-            setTheme('spring');
-        }
-
-        // Immediately invoked function to set the theme on initial load
-        (function () {
-        if (localStorage.getItem('theme') === 'theme-dark') {
-            setTheme('theme-dark');
-        } else {
-            setTheme('summer');
-        }
-        })();
-
-        window.addEventListener("load", function(){
-            setTimeout(
-                function open(event) {
-                    document.querySelector(".popup").style.display = "flex";
-                },
-                1000
-            );
-        });
-
-        $(document).ready(function(){
-            $(window).scrollTop(0);
-        });
-
-        // fade in function
-        document.addEventListener("DOMContentLoaded", () => {
-            window.setTimeout(function() {
-                document.body.classList.remove('fade');
-            }, 500);
-        });
-
-        // stops scrolling when popup is open
-        $("body").css("overflow", "hidden");
-
-    </script>
+    <div class="base"></div>
 </body>
 </html>
