@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en" class="theme-light">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        $("body").css("overflow", "hidden");
         $(document).ready(function(){
-          $(".close-popup").click(function(){
-            $(".popup").fadeOut(800);
-            $("body").css("overflow", "visible");
-          });
+            $(".close-popup").click(function(){
+                $(".popup").fadeOut(800);
+                $("body").css("overflow", "visible");
+            });
         });
-        $(document).load().scrollTop(0);
     </script>
 </head>
 <body>
@@ -23,31 +21,25 @@
         // prefade action
         document.body.classList.add('fade');
     </script>
-    
+    <!-- <div id="snowflakeContainer">
+        <p class="snowflake">*</p>
+    </div> -->
     <div class="popup" style="display: flex;">
         <div class="space"></div>
         <div class="pop-info">
             <h1>Theme Selection</h1>
             <div class="selections">
-                <div class="summerselection">
-                    <div class="seasonbutton">
-                        <button id="switch" onclick="toggleSummer()" class="close-popup select-summer">Summer</button>
-                    </div>
+                <div class="summerselection seasonselection">
+                    <button id="switch" onclick="toggleSummer()" class="close-popup select-summer">Summer</button>
                 </div>
-                <div class="winterselection">
-                    <div class="seasonbutton">
-                        <button id="switch" onclick="toggleWinter()" class="close-popup select-winter">Winter</button>
-                    </div>
+                <div class="winterselection seasonselection">
+                    <button id="switch" onclick="toggleWinter()" class="close-popup select-winter">Winter</button>
                 </div>
-                <div class="springselection">
-                    <div class="seasonbutton">
-                        <button id="switch" onclick="toggleSpring()" class="close-popup select-spring">Spring</button>
-                    </div>
+                <div class="springselection seasonselection">
+                    <button id="switch" onclick="toggleSpring()" class="close-popup select-spring">Spring</button>
                 </div>
-                <div class="autumnselection">
-                    <div class="seasonbutton">
-                        <button id="switch" onclick="toggleAutumn()" class="close-popup select-autumn">Autumn</button>
-                    </div>
+                <div class="autumnselection seasonselection">
+                    <button id="switch" onclick="toggleAutumn()" class="close-popup select-autumn">Autumn</button>
                 </div>
             </div>
             
@@ -182,6 +174,9 @@
             );
         });
 
+        $(document).ready(function(){
+            $(window).scrollTop(0);
+        });
 
         // fade in function
         document.addEventListener("DOMContentLoaded", () => {
@@ -191,7 +186,6 @@
         });
 
         // stops scrolling when popup is open
-
         $("body").css("overflow", "hidden");
 
     </script>

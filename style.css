@@ -242,11 +242,9 @@ button {
 
 .selections > div {
     font-size: 50px;
-    padding: 80px 180px;
+    /* padding: 80px 180px; */
     border: black 2px solid;
     border-radius: 50px;
-    margin: 20px;
-    
 }
 
 .close-popup {
@@ -298,37 +296,41 @@ body {
     background-image: url(spring.gif);
 }
 
-.seasonbutton {
-    opacity: 0;
-    width: 100px;
+.seasonselection {
+    background-size: cover;
+    object-fit: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 30px;
+    width: 700px;
 }
 
-.seasonbutton:hover {
-    opacity: 1;
+#switch {
+    width: 700px;
+    height: 200px;
+    opacity: 0;
 }
 
-/* 
-.select-summer:hover {
-    background-image: url(summer.gif);
-    background-size: cover;
-    background-position: center;
+@keyframes fadeIn {
+    0% {opacity: 0; }
+    100% {opacity: 1;}
 }
 
-.select-winter:hover {
-    background-image: url(winter.gif);
-    background-size: cover;
-    background-position: center;
+#switch:hover {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
 }
 
-.select-autumn:hover {
-    background-image: url(autumn.gif);
-    background-size: cover;
-    background-position: center;
+/* #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
-
-.select-spring:hover {
-    background-image: url(spring.gif);
-    background-size: cover;
-    background-position: center;
-} */
+.snowflake {
+    padding-left: 15px;
+    font-family: Times, Georgia,  */
