@@ -1,20 +1,21 @@
+// setting variables for elements
 var home = document.getElementById("welcome");
 var about = document.getElementById("about");
 var facts = document.getElementById("facts");
 var projects = document.getElementById("projects");
 var socials = document.getElementById("socials");
 
-// prefade action
+// adding fade onto the document
 document.body.classList.add('fade');
 
+// open sidebar function
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
-    // document.getElementById("content").style.marginLeft = "250px";
 }
 
+// close sidebar function
 function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
-    // document.getElementById("content").style.margin= "0";
 }
 
 // function to set a given theme/color-scheme
@@ -22,6 +23,7 @@ function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
 }
+
 // function to toggle between seasons
 function toggleSummer() {
     setTheme('summer');
@@ -36,15 +38,7 @@ function toggleSpring() {
     setTheme('spring');
 }
 
-// Immediately invoked function to set the theme on initial load
-(function () {
-if (localStorage.getItem('theme') === 'theme-dark') {
-    setTheme('theme-dark');
-} else {
-    setTheme('summer');
-}
-})();
-
+// when load page, show popup
 window.addEventListener("load", function(){
     setTimeout(
         function open(event) {
@@ -54,6 +48,7 @@ window.addEventListener("load", function(){
     );
 });
 
+// scroll window back to the top at each refresh
 $(document).ready(function(){
     $(window).scrollTop(0);
 });
@@ -65,6 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 500);
 });
 
-// stops scrolling when popup is open
+// disable scrolling when popup is open
 $("body").css("overflow", "hidden");
 
