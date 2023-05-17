@@ -281,19 +281,19 @@ body {
   }
 
 .summerselection {
-    background-image: url(summer.gif);
+    background-image: url(/media/gifs/summer.gif);
 }
 
 .winterselection {
-    background-image: url(winter.gif);
+    background-image: url(/media/gifs/winter.gif);
 }
 
 .autumnselection {
-    background-image: url(autumn.gif);
+    background-image: url(/media/gifs/autumn.gif);
 }
 
 .springselection {
-    background-image: url(spring.gif);
+    background-image: url(/media/gifs/spring.gif);
 }
 
 .seasonselection {
