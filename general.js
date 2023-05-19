@@ -24,7 +24,8 @@ function setTheme(themeName) {
     document.documentElement.className = themeName;
 }
 
-// function to toggle between seasons
+
+// function to toggle between seasons, adding effects
 function toggleSummer() {
     setTheme('summer');
 }
@@ -33,6 +34,7 @@ function toggleWinter() {
 }
 function toggleAutumn() {
     setTheme('autumn');
+    document.getElementById("leaves").style.display = "block";
 }
 function toggleSpring() {
     setTheme('spring');
@@ -62,4 +64,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // disable scrolling when popup is open
 $("body").css("overflow", "hidden");
-

@@ -1,0 +1,24 @@
+.winter {
+    --color-primary: #0060df;
+    --color-secondary: #b7b7f3;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+}
+.summer {
+    --color-primary: #17ed90;
+    --color-secondary: #cdd532;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+}
+.autumn {
+    --color-primary: #D49A6A;
+    --color-secondary: #e4c199;
+    --color-accent: #ab6e2e;
+    --font-color: #ffffff;
+}
+.spring {
+    --color-primary: #17ed90;
+    --color-secondary: #67e77a;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+}

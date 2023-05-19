@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve's Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/leaves.css">
+    <link rel="stylesheet" href="./css/themes.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -13,23 +15,21 @@
                 $(".popup").fadeOut(800);
                 $("body").css("overflow-y", "visible");
                 $("body").css("overflow-x", "hidden");
-
             });
         });
     </script>
 </head>
 <body>
-    <script src="snow.js"></script>
     <script src="general.js"></script>
-    <div class="leaves">
-        <div class="leaf1">🍁</div>
-        <div class="leaf2">🍁</div>
-        <div class="leaf3">🍁</div>
-        <div class="leaf4">🍁</div>
-        <div class="leaf6">🍁</div>
-        <div class="leaf7">🍁</div>
-        <div class="leaf8">🍁</div>
-        <div class="leaf9">🍁</div>
+    <div id="leaves" style="display: none;">
+        <div class="leaf1 leaf">🍁</div>
+        <div class="leaf2 leaf">🍁</div>
+        <div class="leaf3 leaf">🍁</div>
+        <div class="leaf4 leaf">🍁</div>
+        <div class="leaf6 leaf">🍁</div>
+        <div class="leaf7 leaf">🍁</div>
+        <div class="leaf8 leaf">🍁</div>
+        <div class="leaf9 leaf">🍁</div>
         <div class="leaf10">🍁</div>
         <div class="leaf11">🍁</div>
         <div class="leaf12">🍁</div>
@@ -60,6 +60,16 @@
         <div class="leaf38">🍁</div>
         <div class="leaf39">🍁</div>
         <div class="leaf40">🍁</div>
+        <div class="leaf41">🍁</div>
+        <div class="leaf42">🍁</div>
+        <div class="leaf43">🍁</div>
+        <div class="leaf44">🍁</div>
+        <div class="leaf45">🍁</div>
+        <div class="leaf46">🍁</div>
+        <div class="leaf47">🍁</div>
+        <div class="leaf48">🍁</div>
+        <div class="leaf49">🍁</div>
+        <div class="leaf50">🍁</div>
     </div>
     <div class="popup" style="display: flex;">
         <div class="space"></div>
@@ -138,7 +148,6 @@
                 </div>
                 <br>
                 <div class="banner">coming soon...</div>
-                <!-- add a coming soon tag -->
             </div>
             <div class="section" id="socials">
                 <div class="title">
@@ -154,6 +163,5 @@
             </div>
         </div>
     </div>
-    <div class="base"></div>
 </body>
 </html>
