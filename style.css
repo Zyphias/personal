@@ -337,21 +337,21 @@ body {
   .leaf1 {
     position: absolute;
     font-size: 30px;
-    top:0;
+    top:-30px;
     animation: fall 12s linear infinite;
   }
   
   .leaf2 {
     position: absolute;
     font-size: 30px;
-    top:0;
+    top:-30px;
     animation: fall2 12s linear infinite;
   }
   
   .leaf3 {
     position: absolute;
     font-size: 30px;
-    top:-400px;
+    top:-30px;
     left:200px;
     animation: fall 12s linear infinite 1s;
   }
@@ -359,7 +359,7 @@ body {
   .leaf4 {
     position: absolute;
     font-size: 30px;
-    top:-400px;
+    top:-30px;
     left:300px;
     animation: fall2 12s linear infinite 1.5s;;
   }
@@ -367,40 +367,40 @@ body {
   .leaf5 {
     position: absolute;
     font-size: 55px;
-    top:-410px;
+    top:-30px;
     left:250px;
     animation: fall3 4s linear infinite 2s;
   }
   
   @keyframes fall {
     0% {top:-410px; transform: translateX(10vw) rotateX(180deg);}
-    100% {top:3000px; transform: translateX(400px) rotateX(-180deg);}
+    100% {top:2385px; transform: translateX(0px) rotateX(-180deg);}
   }
   
   @keyframes fall2 {
     0% {top:-410px; transform: translateX(20vw) rotateX(-90deg);}
-    100% {top:3000px; transform: translateX(-350px) rotateX(180deg);}
+    100% {top:2385px; transform: translateX(-350px) rotateX(180deg);}
   }
   
   @keyframes fall3 {
-    0% {top:-430px; transform: translateX(30vw) rotateX(-180deg);}
-    100% {top:3000px; transform: translateX(-400px) rotateX(180deg);}
+    0% {top:-410px; transform: translateX(30vw) rotateX(-180deg);}
+    100% {top:2385px; transform: translateX(-400px) rotateX(180deg);}
   }
   
   @keyframes fall4 {
-    0% {top:-430px; transform: translateX(40vw) rotateY(-180deg);}
-    100% {top:3000px; transform: translateX(-400px) rotateY(180deg);}
+    0% {top:-410px; transform: translateX(40vw) rotateY(-180deg);}
+    100% {top:2385px; transform: translateX(-400px) rotateY(180deg);}
   }
   
   @keyframes fall5 {
     0% {top:-410px; transform: translateX(50vw) rotateY(180deg);}
-    100% {top:3000px; transform: translateX(250px) rotateY(-180deg);}
+    100% {top:2385px; transform: translateX(250px) rotateY(-180deg);}
   }
   
   .leaf6 {
     position: absolute;
     font-size: 30px;
-    top:-410px;
+    top:-30px;
     left:-250px;
     animation: fall3 12s linear infinite 1.5s;
   }
@@ -408,7 +408,7 @@ body {
   .leaf7 {
     position: absolute;
     font-size: 30px;
-    top:-410px;
+    top:-30px;
     left:-350px;
     animation: fall2 12s linear infinite .5s;
   }
@@ -416,7 +416,7 @@ body {
   .leaf8 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:550px;
     animation: fall3 12s linear infinite .5s;
   }
@@ -424,7 +424,7 @@ body {
   .leaf9 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:150px;
     animation: fall4 12s linear infinite .3s;
   }
@@ -432,7 +432,7 @@ body {
   .leaf10 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:450px;
     animation: fall5 12s linear infinite 1.3s;
   }
@@ -440,7 +440,7 @@ body {
   .leaf11 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:650px;
     animation: fall5 12s linear infinite 1.7s;
   }
@@ -448,7 +448,7 @@ body {
   .leaf12 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 90wv;
     animation: fall 12s linear infinite 5s;
   }
@@ -456,7 +456,7 @@ body {
   .leaf13 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 80wv;
     animation: fall2 12s linear infinite 5.5s;
   }
@@ -464,7 +464,7 @@ body {
   .leaf14 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 60vw;
     animation: fall4 12s linear infinite 3.8s;
   }
@@ -472,7 +472,7 @@ body {
   .leaf15 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 30vw;
     animation: fall 12s linear infinite 4.7s;
   }
@@ -480,7 +480,7 @@ body {
   .leaf16 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 89vw;
     animation: fall5 12s linear infinite 5.2s;
   }
@@ -488,7 +488,7 @@ body {
   .leaf17 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 69vw;
     animation: fall 12s linear infinite 3.7s;
   }
@@ -496,7 +496,7 @@ body {
   .leaf18 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 73vw;
     animation: fall3 12s linear infinite 4.1s;
   }
@@ -504,7 +504,7 @@ body {
   .leaf19 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 10vw;
     animation: fall2 12s linear infinite 2.4s;
   }
@@ -512,7 +512,7 @@ body {
   .leaf20 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 45vw;
     animation: fall5 12s linear infinite 3.1s;
   }
@@ -520,21 +520,21 @@ body {
 .leaf21 {
     position: absolute;
     font-size: 30px;
-    top:0;
+    top:-30px;
     animation: fall 12s linear infinite 4s;
   }
   
   .leaf22 {
     position: absolute;
     font-size: 30px;
-    top:0;
+    top:-30px;
     animation: fall2 12s linear infinite 4s;
   }
   
   .leaf23 {
     position: absolute;
     font-size: 30px;
-    top:-400px;
+    top:-30px;
     left:200px;
     animation: fall 12s linear infinite 5s;
   }
@@ -542,7 +542,7 @@ body {
   .leaf24 {
     position: absolute;
     font-size: 30px;
-    top:-400px;
+    top:-30px;
     left:300px;
     animation: fall2 12s linear infinite 5.5s;;
   }
@@ -550,7 +550,7 @@ body {
   .leaf25 {
     position: absolute;
     font-size: 55px;
-    top:-410px;
+    top:-30px;
     left:250px;
     animation: fall3 4s linear infinite 7s;
   }
@@ -558,7 +558,7 @@ body {
   .leaf26 {
     position: absolute;
     font-size: 30px;
-    top:-410px;
+    top:-30px;
     left:-250px;
     animation: fall3 12s linear infinite 6.5s;
   }
@@ -566,7 +566,7 @@ body {
   .leaf27 {
     position: absolute;
     font-size: 30px;
-    top:-410px;
+    top:-30px;
     left:-350px;
     animation: fall2 12s linear infinite 5.5s;
   }
@@ -574,7 +574,7 @@ body {
   .leaf28 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:550px;
     animation: fall3 12s linear infinite 5.5s;
   }
@@ -582,7 +582,7 @@ body {
   .leaf29 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:150px;
     animation: fall4 12s linear infinite 5.3s;
   }
@@ -590,7 +590,7 @@ body {
   .leaf30 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:450px;
     animation: fall5 12s linear infinite 6.3s;
   }
@@ -598,7 +598,7 @@ body {
   .leaf31 {
     position: absolute;
     font-size: 30px;
-    top:-430px;
+    top:-30px;
     left:650px;
     animation: fall5 12s linear infinite 6.7s;
   }
@@ -606,7 +606,7 @@ body {
   .leaf32 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 90wv;
     animation: fall 12s linear infinite 9s;
   }
@@ -614,7 +614,7 @@ body {
   .leaf33 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 80wv;
     animation: fall2 12s linear infinite 9.5s;
   }
@@ -622,7 +622,7 @@ body {
   .leaf34 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 60vw;
     animation: fall4 12s linear infinite 8.8s;
   }
@@ -630,7 +630,7 @@ body {
   .leaf35 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 30vw;
     animation: fall 12s linear infinite 9.7s;
   }
@@ -638,7 +638,7 @@ body {
   .leaf36 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 89vw;
     animation: fall5 12s linear infinite 9.2s;
   }
@@ -646,7 +646,7 @@ body {
   .leaf37 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 69vw;
     animation: fall 12s linear infinite 8.7s;
   }
@@ -654,7 +654,7 @@ body {
   .leaf38 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 73vw;
     animation: fall3 12s linear infinite 9.1s;
   }
@@ -662,7 +662,7 @@ body {
   .leaf39 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 10vw;
     animation: fall2 12s linear infinite 6.4s;
   }
@@ -670,7 +670,13 @@ body {
   .leaf40 {
     position: absolute;
     font-size: 30px;
-    top: -400px;
+    top:-30px;
     left: 45vw;
     animation: fall5 12s linear infinite 8.1s;
   }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
