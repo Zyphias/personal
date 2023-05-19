@@ -15,6 +15,10 @@ html {
     color: white;
 }
 
+.main_title {
+  z-index: 100;
+}
+
 .profile {
     border-radius: 50%;
     width: 200px;
@@ -127,7 +131,7 @@ button {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0;
   left: 0;
   background-color: #111;
@@ -675,8 +679,4 @@ body {
     animation: fall5 12s linear infinite 8.1s;
   }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
