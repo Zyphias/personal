@@ -1,4 +1,4 @@
-### My Personal Website
+# My Personal Website
 A couple of days into designing and coding my website up, I really wished that i put this file into good use, but nonetheless this is a valuble learning opportunity. Rather, I might just record the lessons which I've learnt in my first attempt at building a personal webpage. 
 
 ## Plan. Plan. PLAN. 
