@@ -1,10 +1,3 @@
-// setting variables for elements
-var home = document.getElementById("welcome");
-var about = document.getElementById("about");
-var facts = document.getElementById("facts");
-var projects = document.getElementById("projects");
-var socials = document.getElementById("socials");
-
 // adding fade onto the document
 document.body.classList.add('fade');
 
