@@ -194,8 +194,8 @@ button {
     --font-color: #ffffff;
 }
 .autumn {
-    --color-primary: #17ed90;
-    --color-secondary: #dc903e;
+    --color-primary: #D49A6A;
+    --color-secondary: #e4c199;
     --color-accent: #12cdea;
     --font-color: #ffffff;
 }
@@ -326,3 +326,351 @@ body {
     -ms-animation: fadeIn 1s;
 }
 
+.content {
+    position: relative;
+  }
+  
+  .leaves {
+    position: absolute;
+  }
+  
+  .leaf1 {
+    position: absolute;
+    font-size: 30px;
+    top:0;
+    animation: fall 12s linear infinite;
+  }
+  
+  .leaf2 {
+    position: absolute;
+    font-size: 30px;
+    top:0;
+    animation: fall2 12s linear infinite;
+  }
+  
+  .leaf3 {
+    position: absolute;
+    font-size: 30px;
+    top:-400px;
+    left:200px;
+    animation: fall 12s linear infinite 1s;
+  }
+  
+  .leaf4 {
+    position: absolute;
+    font-size: 30px;
+    top:-400px;
+    left:300px;
+    animation: fall2 12s linear infinite 1.5s;;
+  }
+  
+  .leaf5 {
+    position: absolute;
+    font-size: 55px;
+    top:-410px;
+    left:250px;
+    animation: fall3 4s linear infinite 2s;
+  }
+  
+  @keyframes fall {
+    0% {top:-410px; transform: translateX(10vw) rotateX(180deg);}
+    100% {top:3000px; transform: translateX(400px) rotateX(-180deg);}
+  }
+  
+  @keyframes fall2 {
+    0% {top:-410px; transform: translateX(20vw) rotateX(-90deg);}
+    100% {top:3000px; transform: translateX(-350px) rotateX(180deg);}
+  }
+  
+  @keyframes fall3 {
+    0% {top:-430px; transform: translateX(30vw) rotateX(-180deg);}
+    100% {top:3000px; transform: translateX(-400px) rotateX(180deg);}
+  }
+  
+  @keyframes fall4 {
+    0% {top:-430px; transform: translateX(40vw) rotateY(-180deg);}
+    100% {top:3000px; transform: translateX(-400px) rotateY(180deg);}
+  }
+  
+  @keyframes fall5 {
+    0% {top:-410px; transform: translateX(50vw) rotateY(180deg);}
+    100% {top:3000px; transform: translateX(250px) rotateY(-180deg);}
+  }
+  
+  .leaf6 {
+    position: absolute;
+    font-size: 30px;
+    top:-410px;
+    left:-250px;
+    animation: fall3 12s linear infinite 1.5s;
+  }
+  
+  .leaf7 {
+    position: absolute;
+    font-size: 30px;
+    top:-410px;
+    left:-350px;
+    animation: fall2 12s linear infinite .5s;
+  }
+  
+  .leaf8 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:550px;
+    animation: fall3 12s linear infinite .5s;
+  }
+  
+  .leaf9 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:150px;
+    animation: fall4 12s linear infinite .3s;
+  }
+  
+  .leaf10 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:450px;
+    animation: fall5 12s linear infinite 1.3s;
+  }
+  
+  .leaf11 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:650px;
+    animation: fall5 12s linear infinite 1.7s;
+  }
+
+  .leaf12 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 90wv;
+    animation: fall 12s linear infinite 5s;
+  }
+
+  .leaf13 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 80wv;
+    animation: fall2 12s linear infinite 5.5s;
+  }
+
+  .leaf14 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 60vw;
+    animation: fall4 12s linear infinite 3.8s;
+  }
+
+  .leaf15 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 30vw;
+    animation: fall 12s linear infinite 4.7s;
+  }
+
+  .leaf16 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 89vw;
+    animation: fall5 12s linear infinite 5.2s;
+  }
+
+  .leaf17 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 69vw;
+    animation: fall 12s linear infinite 3.7s;
+  }
+
+  .leaf18 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 73vw;
+    animation: fall3 12s linear infinite 4.1s;
+  }
+
+  .leaf19 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 10vw;
+    animation: fall2 12s linear infinite 2.4s;
+  }
+
+  .leaf20 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 45vw;
+    animation: fall5 12s linear infinite 3.1s;
+  }
+
+.leaf21 {
+    position: absolute;
+    font-size: 30px;
+    top:0;
+    animation: fall 12s linear infinite 4s;
+  }
+  
+  .leaf22 {
+    position: absolute;
+    font-size: 30px;
+    top:0;
+    animation: fall2 12s linear infinite 4s;
+  }
+  
+  .leaf23 {
+    position: absolute;
+    font-size: 30px;
+    top:-400px;
+    left:200px;
+    animation: fall 12s linear infinite 5s;
+  }
+  
+  .leaf24 {
+    position: absolute;
+    font-size: 30px;
+    top:-400px;
+    left:300px;
+    animation: fall2 12s linear infinite 5.5s;;
+  }
+  
+  .leaf25 {
+    position: absolute;
+    font-size: 55px;
+    top:-410px;
+    left:250px;
+    animation: fall3 4s linear infinite 7s;
+  }
+  
+  .leaf26 {
+    position: absolute;
+    font-size: 30px;
+    top:-410px;
+    left:-250px;
+    animation: fall3 12s linear infinite 6.5s;
+  }
+  
+  .leaf27 {
+    position: absolute;
+    font-size: 30px;
+    top:-410px;
+    left:-350px;
+    animation: fall2 12s linear infinite 5.5s;
+  }
+  
+  .leaf28 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:550px;
+    animation: fall3 12s linear infinite 5.5s;
+  }
+  
+  .leaf29 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:150px;
+    animation: fall4 12s linear infinite 5.3s;
+  }
+  
+  .leaf30 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:450px;
+    animation: fall5 12s linear infinite 6.3s;
+  }
+  
+  .leaf31 {
+    position: absolute;
+    font-size: 30px;
+    top:-430px;
+    left:650px;
+    animation: fall5 12s linear infinite 6.7s;
+  }
+
+  .leaf32 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 90wv;
+    animation: fall 12s linear infinite 9s;
+  }
+
+  .leaf33 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 80wv;
+    animation: fall2 12s linear infinite 9.5s;
+  }
+
+  .leaf34 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 60vw;
+    animation: fall4 12s linear infinite 8.8s;
+  }
+
+  .leaf35 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 30vw;
+    animation: fall 12s linear infinite 9.7s;
+  }
+
+  .leaf36 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 89vw;
+    animation: fall5 12s linear infinite 9.2s;
+  }
+
+  .leaf37 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 69vw;
+    animation: fall 12s linear infinite 8.7s;
+  }
+
+  .leaf38 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 73vw;
+    animation: fall3 12s linear infinite 9.1s;
+  }
+
+  .leaf39 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 10vw;
+    animation: fall2 12s linear infinite 6.4s;
+  }
+
+  .leaf40 {
+    position: absolute;
+    font-size: 30px;
+    top: -400px;
+    left: 45vw;
+    animation: fall5 12s linear infinite 8.1s;
+  }
