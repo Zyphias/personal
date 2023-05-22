@@ -1,12 +1,12 @@
 .winter {
-    --color-primary: #0060df;
-    --color-secondary: #b7b7f3;
-    --color-accent: #fd6f53;
+    --color-primary: #57838D;
+    --color-secondary: #B4C9C7;
+    --color-accent: #445A67;
     --font-color: #000000;
 }
 .summer {
-    --color-primary: #17ed90;
-    --color-secondary: #cdd532;
+    --color-primary: #FDF6C3;
+    --color-secondary: #9cd4aa;
     --color-accent: #12cdea;
     --font-color: #ffffff;
 }
@@ -17,8 +17,8 @@
     --font-color: #ffffff;
 }
 .spring {
-    --color-primary: #17ed90;
-    --color-secondary: #67e77a;
-    --color-accent: #12cdea;
+    --color-primary: #5e8d5a;
+    --color-secondary: #c6d7b9;
+    --color-accent: #b8cd9e;
     --font-color: #ffffff;
 }
