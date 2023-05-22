@@ -17,13 +17,16 @@ function setTheme(themeName) {
     document.documentElement.className = themeName;
 }
 
-
 // function to toggle between seasons, adding effects
 function toggleSummer() {
     setTheme('summer');
 }
 function toggleWinter() {
     setTheme('winter');
+    setTimeout(() => {    
+        const snowflake = new SnowflakeJs(frames=30, count=60, lifetime=5000, maxSpeed=4, maxSize=15);
+        snowflake.init();
+    }, 1000);
 }
 function toggleAutumn() {
     setTheme('autumn');

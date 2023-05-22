@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/leaves.css">
     <link rel="stylesheet" href="./css/themes.css">
+    <script src="./node_modules/@aicdev/snowflakejs/dist/snowflake.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -74,7 +75,10 @@
     <div class="popup" style="display: flex;">
         <div class="space"></div>
         <div class="pop-info">
-            <h1>Theme Selection</h1>
+            <div class="text">
+                <h1>Theme Selection</h1>
+                <p>(try hovering over the gifs!)</p>
+            </div>
             <div class="selections">
                 <div class="summerselection seasonselection">
                     <button id="switch" onclick="toggleSummer()" class="close-popup select-summer">Summer</button>
@@ -89,6 +93,8 @@
                     <button id="switch" onclick="toggleAutumn()" class="close-popup select-autumn">Autumn</button>
                 </div>
             </div>
+            <br>
+            <p>If you wish to select a different theme, simply refresh the page.</p>
         </div>
     </div>
     <button class="openbtn" onclick="openNav()">☰</button> 
@@ -123,7 +129,7 @@
                     <br>
                     <p>age: 19</p>
                     <br>
-                    <p>hobbies n interests: </p>
+                    <p>hobbies and interests: </p>
                     <br>
                     <p>• music</p>
                     <br>
@@ -170,7 +176,6 @@
         var facts = document.getElementById("facts");
         var projects = document.getElementById("projects");
         var socials = document.getElementById("socials");
-
     </script>
 </body>
 </html>

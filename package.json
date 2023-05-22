@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@aicdev/snowflakejs": "^0.0.3"
+  }
+}
