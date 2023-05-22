@@ -303,6 +303,7 @@ body {
     -moz-animation: fadeIn 1s;
     -o-animation: fadeIn 1s;
     -ms-animation: fadeIn 1s;
+    opacity: 1;
 }
 
 
