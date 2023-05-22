@@ -24,9 +24,9 @@ function toggleSummer() {
 function toggleWinter() {
     setTheme('winter');
     setTimeout(() => {    
-        const snowflake = new SnowflakeJs(frames=30, count=60, lifetime=5000, maxSpeed=4, maxSize=15);
+        const snowflake = new SnowflakeJs(frames=30, count=100, lifetime=10000, maxSpeed=7, maxSize=15);
         snowflake.init();
-    }, 1000);
+    }, 800);
 }
 function toggleAutumn() {
     setTheme('autumn');
